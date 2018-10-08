@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kannada ಕಲಿ</string>
+    <string name="numbers">Numbers</string>
+    <string name="alphabets">Alphabets</string>
+    <string name="family">Family members</string>
+    <string name="convo">Conversation</string>
+    <string name="phrases">Phrases</string>
+    <string name="words">Words</string>
+</resources>
