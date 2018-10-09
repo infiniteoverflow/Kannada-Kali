@@ -123,7 +123,7 @@
             <TextView
                 android:id="@+id/five"
                 style="@style/numbersText"
-                android:text="ಅಯ್ದು - aydu"
+                android:text="ಐದು - aydu"
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
                 android:background="#b39ddb" />
@@ -142,10 +142,10 @@
             <TextView
                 android:id="@+id/six"
                 style="@style/numbersText"
-                android:text="	ಆರು - aaru"
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
-                android:background="#616161" />
+                android:background="#616161"
+                android:text="	ಆರು - aaru" />
 
         </LinearLayout>
 
