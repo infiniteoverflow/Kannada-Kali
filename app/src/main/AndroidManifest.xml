@@ -23,14 +23,29 @@
         <activity
             android:name=".Numbers"
             android:label="@string/numbers" />
-        <activity android:name=".Family"
-            android:label="@string/family"/>
-        <activity android:name=".Convo"
-            android:label="@string/convo"/>
-        <activity android:name=".Phrases"
-            android:label="@string/phrases"/>
-        <activity android:name=".Words"
-            android:label="@string/words"></activity>
+        <activity
+            android:name=".Family"
+            android:label="@string/family" />
+        <activity
+            android:name=".Convo"
+            android:label="@string/convo" />
+        <activity
+            android:name=".Phrases"
+            android:label="@string/phrases" />
+        <activity
+            android:name=".Words"
+            android:label="@string/words" />
+        <activity
+            android:name=".Swaragalu"
+            android:label="ಸ್ವರಗಳು - Swaragalu" />
+        <activity
+            android:name=".Yogavahagalu"
+            android:label="ಯೋಗವಾಹಗಳು - Yogavahagalu" />
+        <activity
+            android:name=".Vargiya"
+            android:label="ವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Vargiya Vyanjanagalu" />
+        <activity android:name=".Avargiya"
+            android:label="ಅವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Avargiya Vyanjanagalu"></activity>
     </application>
 
 </manifest>
