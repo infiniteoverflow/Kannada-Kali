@@ -1,9 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Numbers">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zero" />
+
+            <TextView
+                android:id="@+id/zero"
+                style="@style/numbersText"
+                android:text="ಸೊನ್ನೆ - sonnē"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#4dd0e1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/one" />
+
+            <TextView
+                android:id="@+id/one"
+                style="@style/numbersText"
+                android:text="ಒಂದು - ondu"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#ffc107" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/two" />
+
+            <TextView
+                android:id="@+id/two"
+                style="@style/numbersText"
+                android:text="ಎರಡು - eradu"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#66bb6a" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/three" />
+
+            <TextView
+                android:id="@+id/three"
+                style="@style/numbersText"
+                android:text="ಮೂರು	 - mooru"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#ff8a65" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/four" />
+
+            <TextView
+                android:id="@+id/four"
+                style="@style/numbersText"
+                android:text="ನಾಲ್ಕು - nalku"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#a1887f" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/five" />
+
+            <TextView
+                android:id="@+id/five"
+                style="@style/numbersText"
+                android:text="ಅಯ್ದು - aydu"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#b39ddb" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/six" />
+
+            <TextView
+                android:id="@+id/six"
+                style="@style/numbersText"
+                android:text="	ಆರು - aaru"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#616161" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/seven" />
+
+            <TextView
+                android:id="@+id/seven"
+                style="@style/numbersText"
+                android:text="ಏಳು - elu"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#ff9e80" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/eight" />
+
+            <TextView
+                android:id="@+id/eight"
+                style="@style/numbersText"
+                android:text="ಎಂಟು - entu"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#ff7043" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:src="@drawable/nine" />
+
+            <TextView
+                android:id="@+id/nine"
+                style="@style/numbersText"
+                android:text="	ಒಂಬತ್ತು - ombattu"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="#69f0ae" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
