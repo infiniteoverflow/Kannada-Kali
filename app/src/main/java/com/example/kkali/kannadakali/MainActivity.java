@@ -1,6 +1,7 @@
 package com.example.kkali.kannadakali;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -72,5 +73,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    public void feedback(View view)
+    {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:"));
+        intent.putExtra(Intent.EXTRA_SUBJECT,"Feedback for the app");
+        intent.putExtra(Intent.EXTRA_EMAIL,"aswinrethi@gmail.com");
+
+        if(intent.resolveActivity(getPackageManager())!=null)
+        {
+            startActivity(Intent.createChooser(intent, "Send Email"));
+        }
     }
 }

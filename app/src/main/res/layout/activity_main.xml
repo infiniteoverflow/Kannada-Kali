@@ -60,6 +60,18 @@
             android:background="#e040fb"
             android:text="@string/words" />
 
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            style="@style/Text"
+            android:text="@string/feedback"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="#90caf9"
+            android:onClick="feedback"/>
+
 
     </LinearLayout>
 </ScrollView>

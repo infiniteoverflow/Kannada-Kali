@@ -6,4 +6,5 @@
     <string name="convo">Conversation</string>
     <string name="phrases">Phrases</string>
     <string name="words">Words</string>
+    <string name="feedback">FEEDBACK</string>
 </resources>
