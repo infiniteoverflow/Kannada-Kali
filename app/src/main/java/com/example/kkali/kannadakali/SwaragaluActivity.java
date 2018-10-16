@@ -3,11 +3,11 @@ package com.example.kkali.kannadakali;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Family extends AppCompatActivity {
+public class SwaragaluActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_family);
+        setContentView(R.layout.activity_swaragalu);
     }
 }

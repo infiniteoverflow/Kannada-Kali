@@ -14,32 +14,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Intent to Alphabets Activity
+        //Intent to AlphabetsActivity Activity
         TextView textView = (TextView)findViewById(R.id.alphabets);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Alphabets.class);
+                Intent i = new Intent(MainActivity.this,AlphabetsActivity.class);
                 startActivity(i);
             }
         });
 
-        //Intent to Numbers Activity
+        //Intent to NumbersActivity Activity
         TextView textView2 = (TextView)findViewById(R.id.numbers);
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Numbers.class);
+                Intent i = new Intent(MainActivity.this,NumbersActivity.class);
                 startActivity(i);
             }
         });
 
-        //Intent to Family Activity
+        //Intent to FamilyActivity Activity
         TextView textView3 = (TextView)findViewById(R.id.family);
         textView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Family.class);
+                Intent i = new Intent(MainActivity.this,FamilyActivity.class);
                 startActivity(i);
             }
         });
@@ -49,27 +49,27 @@ public class MainActivity extends AppCompatActivity {
         textView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Convo.class);
+                Intent i = new Intent(MainActivity.this,ConvoActivity.class);
                 startActivity(i);
             }
         });
 
-        //Intent to Phrases Activity
+        //Intent to PhrasesActivity Activity
         TextView textView5 = (TextView)findViewById(R.id.phrases);
         textView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Phrases.class);
+                Intent i = new Intent(MainActivity.this,PhrasesActivity.class);
                 startActivity(i);
             }
         });
 
-        //Intent to Words Activity
+        //Intent to WordsActivity Activity
         TextView textView6 = (TextView)findViewById(R.id.words);
         textView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Words.class);
+                Intent i = new Intent(MainActivity.this,WordsActivity.class);
                 startActivity(i);
             }
         });

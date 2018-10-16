@@ -18,33 +18,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Alphabets"
+            android:name=".AlphabetsActivity"
             android:label="@string/alphabets" />
         <activity
-            android:name=".Numbers"
+            android:name=".NumbersActivity"
             android:label="@string/numbers" />
         <activity
-            android:name=".Family"
+            android:name=".FamilyActivity"
             android:label="@string/family" />
         <activity
-            android:name=".Convo"
+            android:name=".ConvoActivity"
             android:label="@string/convo" />
         <activity
-            android:name=".Phrases"
+            android:name=".PhrasesActivity"
             android:label="@string/phrases" />
         <activity
-            android:name=".Words"
+            android:name=".WordsActivity"
             android:label="@string/words" />
         <activity
-            android:name=".Swaragalu"
+            android:name=".SwaragaluActivity"
             android:label="ಸ್ವರಗಳು - Swaragalu" />
         <activity
-            android:name=".Yogavahagalu"
+            android:name=".YogavahagaluActivity"
             android:label="ಯೋಗವಾಹಗಳು - Yogavahagalu" />
         <activity
-            android:name=".Vargiya"
+            android:name=".VargiyaActivity"
             android:label="ವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Vargiya Vyanjanagalu" />
-        <activity android:name=".Avargiya"
+        <activity android:name=".AvargiyaActivity"
             android:label="ಅವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Avargiya Vyanjanagalu"></activity>
     </application>
 
