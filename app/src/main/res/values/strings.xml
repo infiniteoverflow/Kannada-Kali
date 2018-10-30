@@ -7,4 +7,6 @@
     <string name="phrases">Phrases</string>
     <string name="words">Words</string>
     <string name="feedback">FEEDBACK</string>
+    <string name="action_settings">Settings</string>
 </resources>
+

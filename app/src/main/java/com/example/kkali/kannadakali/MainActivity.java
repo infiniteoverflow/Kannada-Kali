@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_SUBJECT,"Feedback for the app");
-        intent.putExtra(Intent.EXTRA_EMAIL,"aswinrethi@gmail.com");
+        intent.putExtra(Intent.EXTRA_EMAIL,new String[] {"aswingopinathan1871@gmail.com"});
 
         if(intent.resolveActivity(getPackageManager())!=null)
         {
