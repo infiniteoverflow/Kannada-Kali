@@ -3,13 +3,14 @@ package com.example.kkali.kannadakali;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class NumbersActivity extends Activity {
+public class NumbersActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class NumbersActivity extends Activity {
         numbers.add(new Word("ಏಳು","aellu",R.drawable.seven,"#4dd0e1"));
         numbers.add(new Word("ಎಂಟು","entu",R.drawable.eight,"#ff8f00"));
         numbers.add(new Word("ಒಂಬತ್ತು","ombattu",R.drawable.nine,"#ff3d00"));
-        numbers.add(new Word("ಹತ್ತು","Hattu",R.drawable.nine,"#5c6bc0"));
+        numbers.add(new Word("ಹತ್ತು","Hattu",R.drawable.ten,"#5c6bc0"));
 
 
         WordAdapter adapter = new WordAdapter(this,numbers);
