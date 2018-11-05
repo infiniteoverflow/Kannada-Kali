@@ -3,10 +3,17 @@
     <string name="numbers">Numbers</string>
     <string name="alphabets">Alphabets</string>
     <string name="family">Family members</string>
-    <string name="convo">Conversation</string>
+    <string name="convo">Conversations</string>
     <string name="phrases">Phrases</string>
     <string name="words">Words</string>
     <string name="feedback">FEEDBACK</string>
     <string name="action_settings">Settings</string>
+
+    <string name="convo1">Conversation between a Shopkeeper and a customer</string>
+    <string name="convo2">Conversation between a teacher and a student</string>
+    <string name="convo3">Conversation between friends</string>
+    <string name="convo4">Conversation between a Bus conductor and a Passenger</string>
+    <string name="convo5">Conversation of a person who wants to know the direction to a place</string>
+    <string name="convo6"> </string>
 </resources>
 

@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConvoActivity">
+    tools:context=".ConvoActivity"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            style="@style/Text"
+            android:text="@string/convo1"
+            android:background="#e57373"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            style="@style/Text"
+            android:text="@string/convo2"
+            android:background="#ffee58"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            style="@style/Text"
+            android:text="@string/convo3"
+            android:background="#ff5722"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            style="@style/Text"
+            android:text="@string/convo4"
+            android:background="#4dd0e1"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Text"
+            android:text="@string/convo5"
+            android:background="#64dd17"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            style="@style/Text"
+            android:text="@string/convo6"
+            android:background="#bdbdbd"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
