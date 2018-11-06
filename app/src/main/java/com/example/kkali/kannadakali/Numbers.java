@@ -1,13 +1,13 @@
 package com.example.kkali.kannadakali;
 
-public class Word {
+public class Numbers {
 
     private String mDefaultTranslation;
     private String mKannadaTranslation;
     private int iconId;
     private String colorId;
 
-    Word(String defaultTranslation, String KannadaTranslation,int iconId2,String color) {
+    Numbers(String defaultTranslation, String KannadaTranslation, int iconId2, String color) {
         mDefaultTranslation = defaultTranslation;
         mKannadaTranslation = KannadaTranslation;
         iconId = iconId2;
