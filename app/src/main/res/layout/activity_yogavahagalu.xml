@@ -19,7 +19,7 @@
                 android:layout_width="85dp"
                 android:layout_height="100dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/aum"
+                android:src="@drawable/am"
                 android:padding="3dp"
                 android:background="@android:color/black"/>
 
