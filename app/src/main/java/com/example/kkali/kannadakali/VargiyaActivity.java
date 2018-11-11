@@ -16,10 +16,10 @@ public class VargiyaActivity extends AppCompatActivity {
 
         ArrayList<Vargiya> vargiya = new ArrayList<Vargiya>();
 
-        vargiya.add(new Vargiya(" ",R.drawable.ka,"#00e676"));
-        vargiya.add(new Vargiya(" ",R.drawable.kha,"#8d6e63"));
-        vargiya.add(new Vargiya(" ",R.drawable.ga,"#ffd54f"));
-        vargiya.add(new Vargiya(" ",R.drawable.gha,"#ff6e40"));
+        vargiya.add(new Vargiya("ಕಲಮು - Kalamu - Pen",R.drawable.ka,"#00e676"));
+        vargiya.add(new Vargiya("ಖಡ್ಗ - Khadga - Sword",R.drawable.kha,"#8d6e63"));
+        vargiya.add(new Vargiya("ಗದೆ - Gadhe - Mace",R.drawable.ga,"#ffd54f"));
+        vargiya.add(new Vargiya("ಘನ - Ghana - Solid",R.drawable.gha,"#ff6e40"));
         vargiya.add(new Vargiya(" ",R.drawable.nga,"#90a4ae"));
         vargiya.add(new Vargiya(" ",R.drawable.cha,"#448aff"));
         vargiya.add(new Vargiya(" ",R.drawable.chha,"#ec407a"));

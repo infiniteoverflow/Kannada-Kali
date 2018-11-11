@@ -19,7 +19,8 @@
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="88dp"
-                android:src="@drawable/mother"/>
+                android:src="@drawable/mother"
+                android:scaleType="fitXY"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
@@ -37,7 +38,9 @@
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="88dp"
-                android:src="@drawable/father"/>
+                android:src="@drawable/father"
+                android:scaleType="fitXY"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
@@ -55,7 +58,9 @@
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="88dp"
-                android:src="@drawable/youngerbro"/>
+                android:src="@drawable/youngerbro"
+                android:scaleType="fitXY"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
@@ -73,7 +78,9 @@
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="88dp"
-                android:src="@drawable/youngersis"/>
+                android:src="@drawable/youngersis"
+                android:scaleType="fitXY"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
@@ -91,7 +98,9 @@
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="88dp"
-                android:src="@drawable/elderbro"/>
+                android:src="@drawable/elderbro"
+                android:scaleType="fitXY"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
@@ -109,7 +118,9 @@
             <ImageView
                 android:layout_width="90dp"
                 android:layout_height="88dp"
-                android:src="@drawable/eldersis"/>
+                android:src="@drawable/eldersis"
+                android:scaleType="fitXY"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
