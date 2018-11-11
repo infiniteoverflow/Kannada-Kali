@@ -16,7 +16,7 @@ public class NumbersActivity extends AppCompatActivity {
 
         ArrayList<Numbers> numbers = new ArrayList<Numbers>();
 
-        numbers.add(new Numbers("ಸೊನ್ನೆ","shoonya",R.drawable.zero,"#00e676"));
+        numbers.add(new Numbers("ಶೂನ್ಯ","shoonya",R.drawable.zero,"#00e676"));
         numbers.add(new Numbers("ಒಂದು","ondu",R.drawable.one,"#8d6e63"));
         numbers.add(new Numbers("ಎರಡು","eradu",R.drawable.two,"#ffd54f"));
         numbers.add(new Numbers("ಮೂರು","mooru",R.drawable.three,"#ff6e40"));

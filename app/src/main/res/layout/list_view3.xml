@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
     android:gravity="center_vertical"
     android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/vargiyaImage"
-        android:layout_width="85dp"
-        android:layout_height="100dp"
-        android:scaleType="fitXY"
-        android:padding="3dp"
-        android:background="@android:color/black"/>
-
-    <LinearLayout
-        android:id="@+id/linearLayoutColorVargiya"
+    <TextView
+        android:id="@+id/englishWords"
+        android:textSize="25sp"
+        android:paddingLeft="40dp"
+        android:paddingTop="13dp"
+        android:textStyle="bold"
         android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="100dp"
-        android:orientation="vertical"
-        android:paddingBottom="20dp">
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/vargiyaWords"
-            android:textSize="25sp"
-            android:paddingLeft="20dp"
-            android:paddingRight="5dp"
-            android:paddingTop="13dp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-
-    </LinearLayout>
-
+    <TextView
+        android:id="@+id/kannadaWords"
+        android:textSize="25sp"
+        android:paddingTop="13dp"
+        android:textStyle="bold"
+        android:paddingRight="15dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
 
 </LinearLayout>
