@@ -16,15 +16,15 @@ public class AvargiyaActivity extends AppCompatActivity {
 
         ArrayList<Avargiya> avargiya = new ArrayList<Avargiya>();
 
-        avargiya.add(new Avargiya(" ",R.drawable.ya,"#00e676"));
-        avargiya.add(new Avargiya(" ",R.drawable.ra,"#8d6e63"));
-        avargiya.add(new Avargiya(" ",R.drawable.la,"#ffd54f"));
-        avargiya.add(new Avargiya(" ",R.drawable.va,"#ff6e40"));
-        avargiya.add(new Avargiya(" ",R.drawable.ssa,"#90a4ae"));
-        avargiya.add(new Avargiya(" ",R.drawable.sha,"#448aff"));
-        avargiya.add(new Avargiya(" ",R.drawable.sa1,"#ec407a"));
-        avargiya.add(new Avargiya(" ",R.drawable.ha,"#5985dd"));
-        avargiya.add(new Avargiya(" ",R.drawable.lla,"#a2dd5a"));
+        avargiya.add(new Avargiya("ಯಂತ್ರ - Yantra - Machine",R.drawable.ya,"#00e676"));
+        avargiya.add(new Avargiya("ರಾಜ - Raja - King",R.drawable.ra,"#8d6e63"));
+        avargiya.add(new Avargiya("ಲಂಡನ್ - London",R.drawable.la,"#ffd54f"));
+        avargiya.add(new Avargiya("ವಾಯು - Vayu - Air",R.drawable.va,"#ff6e40"));
+        avargiya.add(new Avargiya("ಶಂಖ - Shankha - Sea Shell",R.drawable.ssa,"#90a4ae"));
+        avargiya.add(new Avargiya("ಪುರುಷ - Purusha - Male",R.drawable.sha,"#448aff"));
+        avargiya.add(new Avargiya("ಸರಿ - Sari - OK",R.drawable.sa1,"#ec407a"));
+        avargiya.add(new Avargiya("ಹಂಸ - Hamsa - Swan",R.drawable.ha,"#5985dd"));
+        avargiya.add(new Avargiya("ಹಳ್ಳಿ - Halli - Village",R.drawable.lla,"#a2dd5a"));
 
         AvargiyaAdapter adapter = new AvargiyaAdapter(this,avargiya);
         ListView listView = (ListView) findViewById(R.id.avargList);

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class NumbersActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) throws NullPointerException {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_num);
 
