@@ -45,19 +45,11 @@
             android:text="@string/convo" />
 
         <TextView
-            android:id="@+id/phrases"
-            style="@style/Text"
-            android:layout_width="match_parent"
-            android:layout_height="88dp"
-            android:background="#29b6f6"
-            android:text="@string/phrases" />
-
-        <TextView
             android:id="@+id/words"
             style="@style/Text"
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:background="#e040fb"
+            android:background="#b39ddb"
             android:text="@string/words" />
 
         <TextView

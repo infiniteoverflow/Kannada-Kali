@@ -37,5 +37,28 @@ public class ConvoActivity extends AppCompatActivity {
             }
         });
 
+        text3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ConvoActivity.this,Convo3_activity.class);
+                startActivity(i);
+            }
+        });
+
+        text4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ConvoActivity.this,Convo4_activity.class);
+                startActivity(i);
+            }
+        });
+
+        text5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ConvoActivity.this,Convo5_activity.class);
+                startActivity(i);
+            }
+        });
     }
 }

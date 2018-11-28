@@ -54,16 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Intent to PhrasesActivity Activity
-        TextView textView5 = (TextView)findViewById(R.id.phrases);
-        textView5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,PhrasesActivity.class);
-                startActivity(i);
-            }
-        });
-
         //Intent to WordsActivity Activity
         TextView textView6 = (TextView)findViewById(R.id.words);
         textView6.setOnClickListener(new View.OnClickListener() {
