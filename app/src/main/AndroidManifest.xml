@@ -22,8 +22,8 @@
             android:label="@string/alphabets" />
         <activity
             android:name=".NumbersActivity"
-            android:label="@string/numbers"
-            android:exported="false"/>
+            android:exported="false"
+            android:label="@string/numbers" />
         <activity
             android:name=".FamilyActivity"
             android:label="@string/family" />
@@ -45,8 +45,11 @@
         <activity
             android:name=".VargiyaActivity"
             android:label="ವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Vargiya Vyanjanagalu" />
-        <activity android:name=".AvargiyaActivity"
-            android:label="ಅವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Avargiya Vyanjanagalu"></activity>
+        <activity
+            android:name=".AvargiyaActivity"
+            android:label="ಅವರ್ಗೀಯ ವ್ಯಂಜನಗಳು - Avargiya Vyanjanagalu" />
+        <activity android:name=".Convo2_activity" />
+        <activity android:name=".Convo1_activity"></activity>
     </application>
 
 </manifest>

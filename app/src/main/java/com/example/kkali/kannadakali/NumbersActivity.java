@@ -32,6 +32,5 @@ public class NumbersActivity extends AppCompatActivity {
         NumbersAdapter adapter = new NumbersAdapter(this,numbers);
         ListView listView = (ListView) findViewById(R.id.NumList);
         listView.setAdapter(adapter);
-
     }
 }
