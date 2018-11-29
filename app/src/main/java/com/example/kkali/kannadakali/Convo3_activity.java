@@ -15,7 +15,7 @@ public class Convo3_activity extends AppCompatActivity {
 
         ArrayList<Convo3> convo3 = new ArrayList<Convo3>();
 
-        convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Namaste Mohan. Hegidheeya?    ","Namaste Ramesh. Naanu chennagi idini. Neevu hegidheeya?","Hii Mohan. How are you?","Hello Ramesh,I am fine. How are you?"));
+        convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Namaste Mohan. Hegidheeya?    ","Namaste Ramesh. Naanu chennagi idini. Neenu hegidheeya?","Hii Mohan. How are you?","Hello Ramesh,I am fine. How are you?"));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Nanu chennagidini","Neenu en madtha idhiya?","I am fine too !","So what do u do?"));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Naanu 2nd year Cse Vidyarthi","Yavu college??","I am a 2nd year Cse Student   ","Which college? "));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Sir M. Visvesvaraya Institute of technology  ","olleyedagali      ","Sir M. Visvesvaraya Institute of technology  ","Great !! "));
