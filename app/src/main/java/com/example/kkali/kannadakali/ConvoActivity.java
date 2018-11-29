@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class ConvoActivity extends AppCompatActivity {
 
-    TextView text1,text2,text3,text4,text5;
+    TextView text1, text2, text3, text4, text5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +19,11 @@ public class ConvoActivity extends AppCompatActivity {
         text2 = findViewById(R.id.textView2);
         text3 = findViewById(R.id.textView3);
         text4 = findViewById(R.id.textView4);
-        text5 = findViewById(R.id.textView5);
 
         text1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ConvoActivity.this,Convo1_activity.class);
+                Intent i = new Intent(ConvoActivity.this, Convo1_activity.class);
                 startActivity(i);
             }
         });
@@ -32,7 +31,7 @@ public class ConvoActivity extends AppCompatActivity {
         text2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ConvoActivity.this,Convo2_activity.class);
+                Intent i = new Intent(ConvoActivity.this, Convo2_activity.class);
                 startActivity(i);
             }
         });
@@ -40,7 +39,7 @@ public class ConvoActivity extends AppCompatActivity {
         text3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ConvoActivity.this,Convo3_activity.class);
+                Intent i = new Intent(ConvoActivity.this, Convo3_activity.class);
                 startActivity(i);
             }
         });
@@ -48,17 +47,10 @@ public class ConvoActivity extends AppCompatActivity {
         text4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ConvoActivity.this,Convo4_activity.class);
+                Intent i = new Intent(ConvoActivity.this, Convo4_activity.class);
                 startActivity(i);
             }
         });
 
-        text5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ConvoActivity.this,Convo5_activity.class);
-                startActivity(i);
-            }
-        });
     }
 }

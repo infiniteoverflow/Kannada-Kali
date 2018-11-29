@@ -16,12 +16,12 @@ public class Convo3_activity extends AppCompatActivity {
         ArrayList<Convo3> convo3 = new ArrayList<Convo3>();
 
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Namaste Mohan. Hegidheeya?    ","Namaste Ramesh. Naanu chennagi idini. Neevu hegidheeya?","Hii Mohan. How are you?","Hello Ramesh,I am fine. How are you?"));
-        convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Nanu chennagidini","En madtha idhiya?","I am fine too !","What do u do?"));
+        convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Nanu chennagidini","Neenu en madtha idhiya?","I am fine too !","So what do u do?"));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Naanu 2nd year Cse Vidyarthi","Yavu college??","I am a 2nd year Cse Student   ","Which college? "));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Sir M. Visvesvaraya Institute of technology  ","olleyedagali      ","Sir M. Visvesvaraya Institute of technology  ","Great !! "));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Neenu en madtha idhiya?  ","Nanu 2nd year Mech vidyarthi      ","What do you do?   ","I am a 2nd year Mech student"));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Yav college nalli?  ","Reva University     ","In which college?   ","Reva University "));
-        convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Mohan ninna whatsapp number kodu  ","9072215663    ","Mohun give me your whatsapp number  "," "));
+        convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Mohan ninna whatsapp number kodu  ","9072215663    ","Mohan give me your whatsapp number  "," "));
         convo3.add(new Convo3(R.drawable.boy1,R.drawable.boy2,"Danyavada mohan  ","Sari! nange swalpa kelsa idhe. Amele Kare madtini    ","Thanks mohan  ","OK! I have some work. Call you later "));
         
         Convo3Adapter adapter = new Convo3Adapter(this,convo3);

@@ -49,7 +49,6 @@
         <activity android:name=".Convo1_activity" />
         <activity android:name=".Convo3_activity" />
         <activity android:name=".Convo4_activity" />
-        <activity android:name=".Convo5_activity"></activity>
     </application>
 
 </manifest>

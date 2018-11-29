@@ -20,7 +20,7 @@ public class Convo1_activity extends AppCompatActivity {
         convo1.add(new Convo1(R.drawable.shopkeeper,R.drawable.ladycustomer,"Matte nimage yen beku madam?   ","Ondu kilo Tomato yeshtu?      ","What do you want next madam?   ","How much for 1 kilo tomato? "));
         convo1.add(new Convo1(R.drawable.shopkeeper,R.drawable.ladycustomer,"Hadinaidu rupees madam   ","Sari ! adhu eradu kilo kodi      ","15 rupees madam  ","OK ! That you give 2 kilo "));
         convo1.add(new Convo1(R.drawable.ladycustomer,R.drawable.shopkeeper,"Total yeshtaytu Sir?   ","Total nalvattu rupees aytu madam      ","How much is the total Sir?   ","Total is 40 rupees madam "));
-        convo1.add(new Convo1(R.drawable.ladycustomer,R.drawable.shopkeeper,"Sari!  ","Danyavada madam     ","Ok! Here you go   ","Thank you madam "));
+        convo1.add(new Convo1(R.drawable.ladycustomer,R.drawable.shopkeeper,"Sari! Tagoli Sir !  ","Danyavada madam     ","Ok! Here you go Sir   ","Thank you madam "));
 
         Convo1Adapter adapter = new Convo1Adapter(this,convo1);
         ListView listView = (ListView) findViewById(R.id.Convo1List);

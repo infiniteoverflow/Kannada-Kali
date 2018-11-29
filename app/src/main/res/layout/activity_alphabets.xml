@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AlphabetsActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
         <TextView
             android:id="@+id/Swaragula"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="wrap_content"
             style="@style/Text"
             android:text="ಸ್ವರಗಳು - Swaragalu (13)"
             android:background="#a1887f"/>
@@ -24,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Text"
-            android:text="ಯೋಗವಾಹಗಳು -\n Yogavahagalu (2)"
+            android:text="ಯೋಗವಾಹಗಳು - Yogavahagalu (2)"
             android:background="#66bb6a"/>
 
         <TextView
@@ -44,5 +40,3 @@
             android:background="#4fc3f7"/>
 
     </LinearLayout>
-
-</ScrollView>

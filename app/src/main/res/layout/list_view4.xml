@@ -43,7 +43,7 @@
                     android:layout_weight="1"
                     android:textSize="17sp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"/>
+                    android:textColor="#ff5722"/>
 
             </LinearLayout>
 
@@ -79,7 +79,7 @@
                     android:layout_weight="1"
                     android:textSize="17sp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"/>
+                    android:textColor="#ff5722"/>
 
             </LinearLayout>
 

@@ -17,7 +17,7 @@ public class Convo2_activity extends AppCompatActivity {
 
         convo2.add(new Convo2(R.drawable.student,R.drawable.teacher,"Namaskara Sir !!    ","Namaskara, Neevu yaaru??             ","Hello Sir !!","Hello, Who are you?"));
         convo2.add(new Convo2(R.drawable.student,R.drawable.teacher,"Nanna hesaru Jacob,Sir !   ","Sari ! Nivu yava class alli oduttiddiya?       ","My name is Jacob,Sir !   ","OK ! Which class do u study? "));
-        convo2.add(new Convo2(R.drawable.student,R.drawable.teacher,"Nanna hesaru Jacob,Sir !   ","Sari Sari !!      ","I am studying in 11th standard Sir   ","OK ! OK ! "));
+        convo2.add(new Convo2(R.drawable.student,R.drawable.teacher,"Sir,nannu hannodane class alli oduttidini   ","Sari Sari !!      ","I am studying in 11th standard Sir   ","OK ! OK ! "));
         convo2.add(new Convo2(R.drawable.student,R.drawable.teacher,"Niivu yaaru Sir?   ","Naanu Kannada adhyaapaka      ","Who are you Sir?   ","I am a Kannada teacher "));
         convo2.add(new Convo2(R.drawable.student,R.drawable.teacher,"Nimma hesaru ennu Sir?   ","Nanna hesaru Ramesh      ","What is your name Sir?   ","My name is Ramesh "));
         convo2.add(new Convo2(R.drawable.teacher,R.drawable.student,"Nimma rajya yaavudu?   ","Nanna rajya Kerala     ","Which is your state?   ","My state is Kerala "));
